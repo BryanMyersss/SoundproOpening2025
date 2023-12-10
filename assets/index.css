@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+  background-color: #EF476F ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100svh;
+  font-family: inter;
+
+  background: linear-gradient(45deg, rgba(239, 71, 111, 1) 0%, rgb(165, 244, 255) 100%);
+  background-size: 400%;
+  animation: bg-animation 10s infinite alternate;
+
+  color: white;
+}
+
+@keyframes bg-animation   {
+  0% {
+    background-position: left;
+  }
+
+  100% {
+    background-position: right;
+  }
+}
+
+img {
+  width: 500px;
+}
+
+h1 {
+  margin-top: 2em;
+}
