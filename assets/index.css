@@ -9,6 +9,7 @@ body {
   flex-direction: column;
   height: 100svh;
   font-family: outfit;
+  margin: 0;
 
   background: linear-gradient(45deg, rgba(239, 71, 111, 1) 0%, rgb(165, 244, 255) 100%);
   background-size: 400%;
